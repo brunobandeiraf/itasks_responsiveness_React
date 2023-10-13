@@ -12,7 +12,13 @@ export const Container = styled.aside`
 
   @media(max-width: ${DEVICE_BREAKPOINTS.MD}){
     grid-area: none;
-    display: none; // none para esconder
+    position: absolute;
+    z-index: 1; // sobrepor tudo
+
+    
+    &[data-menu-is-open="true"]{
+
+    }
   }
 `;
 
