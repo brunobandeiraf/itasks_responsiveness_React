@@ -1,8 +1,8 @@
 import { Plus, List } from "@phosphor-icons/react";
 
-import { Button, Menu } from "../Button";
+import { Button } from "../Button";
 
-import { Container } from "./styles";
+import { Container, Menu} from "./styles";
 
 export function Header({ onOpenMenu }) {
   return (
