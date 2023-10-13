@@ -43,12 +43,13 @@ export default createGlobalStyle`
     filter: brightness(0.9);
   }
 
+  // detalhes da scrollbar 
   ::-webkit-scrollbar {
-    width: 8px;
+    width: 0.5rem;
   }
   
   ::-webkit-scrollbar-track {
-    background-color: #202024;
+    background-color: #202024; // mesma cor do fundo
   }
   
   ::-webkit-scrollbar-thumb {
